@@ -1,15 +1,24 @@
 .App {
   text-align: center;
-  /* background-color: #2e3239; */
+  background-color: rgba(255, 160, 122, 0.2);
   /* min-height: 100vh; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   /* color: white; */
 }
 
+.BOX {
+  margin: 1em;
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-color: rgba(50,50,50,0.5);
+  position: relative;
+}
 .profile.icon {
   color: #000;
   position: absolute;
@@ -59,7 +68,6 @@
   border: solid 1px currentColor;
 }
 
-
 .box {
   width: 200px;
   height: 200px;
@@ -84,3 +92,24 @@
   border-left: solid 10px red;
 }
 
+.pink {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.belgium {
+  background: linear-gradient(
+    to right,
+    black 33%,
+    yellow 33%,
+    yellow 66%,
+    red 66%
+  );
+}
