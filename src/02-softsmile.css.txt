@@ -59,7 +59,6 @@
   border: solid 1px currentColor;
 }
 
-
 .box {
   width: 200px;
   height: 200px;
@@ -83,4 +82,3 @@
   border-top: solid 10px red;
   border-left: solid 10px red;
 }
-
