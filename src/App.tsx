@@ -8,6 +8,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+      <div className="BOX">
+        <div className="cloud icon"></div>
+      </div>
       <div className="BOX">
         <div className="centering"></div>
       </div>
