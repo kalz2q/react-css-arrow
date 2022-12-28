@@ -8,24 +8,20 @@
 .butt:after {
   background: #fff; /* foreground color */
 }
-
 body,
 .footer,
 .middle span,
 .middle,
 .top,
 .top span {
-  background: red; /* background color */
+  background: #ccc; /* background color */
 }
-
 .apple {
   width: 230px;
   height: 200px;
   border-radius: 36% 36% 41% 41% / 42% 42% 75% 75%;
   position: relative;
   margin: 80px auto 0;
-  background-color: grey;
-
 }
 .footer {
   position: absolute;
@@ -34,7 +30,6 @@ body,
   right: -40%;
   top: 8%;
   border-radius: 60%;
-  background-color: yellow;
 }
 .middle span {
   display: block;
@@ -44,14 +39,12 @@ body,
   height: 400%;
   bottom: -239%;
   left: 38%;
-  background-color: pink;
 }
 .middle {
   position: absolute;
   width: 100%;
   height: 4%;
   bottom: -1%;
-  background-color: lightgreen;
 }
 .middle:before {
   content: "";
@@ -61,7 +54,6 @@ body,
   border-radius: 0% 0% 100% 100%;
   left: 21%;
   bottom: 38%;
-  background-color: saddlebrown;
 }
 .middle:after {
   content: "";
@@ -71,7 +63,6 @@ body,
   border-radius: 0% 0% 100% 100%;
   right: 21%;
   bottom: 38%;
-  background-color: lime;
 }
 
 .top span {
@@ -83,7 +74,6 @@ body,
   top: -92%;
   left: 18.6%;
   z-index: 3;
-  background-color: skyblue;
 }
 .top span:after {
   border-radius: 100% 0 100% 0;
@@ -93,7 +83,6 @@ body,
   position: absolute;
   top: -193%;
   width: 90%;
-  background-color: blue;
 }
 .top {
   position: absolute;
@@ -110,7 +99,6 @@ body,
   border-radius: 100% 100% 0% 0% / 100% 200% 0% 0%;
   left: -27%;
   top: 1%;
-  background-color: orchid;
 }
 .top:after {
   content: "";
@@ -120,5 +108,4 @@ body,
   border-radius: 100% 100% 0% 0% / 200% 100% 0% 0%;
   right: -27%;
   top: 1%;
-  background-color: transparent;
 }
